@@ -1,16 +1,16 @@
-# Ruby Exercises
+## JavaScript Exercises
 
-Exercises to practice programming in Ruby.
+Exercises to practice programming in JavaScript.
 
-Here at [CodeUnion][codeunion] we believe that one of the best ways to develop skills as a programmer is to write code and get feedback on your code in the form of a [code review][code-review] from a more experienced programmer.
+These exercises were initially written in Ruby and part of the [CodeUnion][codeunion] curriculum.  They believe that one of the best ways to develop skills as a programmer is to write code and get feedback on your code in the form of a [code review][code-review] from a more experienced programmer.
 
-We wrote these exercises with the intent to give you the opportunity to solve some fun programming challenges.
+They wrote these exercises with the intent to give you the opportunity to solve some fun programming challenges.
 
 If you are a CodeUnion student, you can then submit your code and receive feedback on them using the [CodeUnion command-line tool][codeunion-cli-tool]. Preview an [example code review][example-code-review].
 
 All of the core exercises can be found in the [exercises](exercises) directory, and bonus exercises (i.e. really tough ones) can be found in the [bonus](bonus) directory.
 
-The exercise files are listed in alphabetical order in the [exercise directory](exercises), but we **strongly recommend** working on them in the [suggested order](exercises/_SUGGESTED_ORDER.md).
+The exercise files are listed in a predetermined order.  It is __strongly recommended__ that they be completed in that [order](exercises/_SUGGESTED_ORDER.md).
 
 ## Getting Started
 
