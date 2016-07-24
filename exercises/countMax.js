@@ -18,8 +18,8 @@
 
 function countMax(list) {
 
-  // You can write this using nothing more than the 'max' and 'countInList'
-  // functions that you've already written.
+  // You can write this using nothing more than the 'max();' and
+  // 'countInList();' functions that you've already written.
 
   // Remember: inelegant, working code is better than elegant,
   // unfinished code.
