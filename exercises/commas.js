@@ -28,7 +28,7 @@ function commas(num) {
 /*
   Write some of your own "sanity checks" here.  Each check should look like:
 
-   console.log(mode([...data points...]) == ...expected return value...);
+   console.log(comma(); == ...expected return value...);
 
   A good sanity check is like a canary in a coal mine: when it fails we know
   something is very wrong in our code.  This means sanity checks should
@@ -40,15 +40,15 @@ function commas(num) {
 
   What these cases mean concretely depends on what your function does.
 
- ** Hint #1 **
- Use .toString(); to convert a number to a string.  That is,
+  ** Hint #1 **
+  Use .toString(); to convert a number to a string.  That is,
 
-  (5).toString();
-    => "5"
-  (100).toString();
-    => "100"
+    (5).toString();
+      => "5"
+    (100).toString();
+      => "100"
 
- Remember: these are rumble strips, not a driving instructor.
- If any are "false" then something is broken. But just because they all return
- "true" doesn't mean you've nailed it. =]
+  Remember: these are rumble strips, not a driving instructor.
+  If any are "false" then something is broken. But just because they all return
+  "true" doesn't mean you've nailed it. =]
 */

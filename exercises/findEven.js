@@ -43,24 +43,24 @@ function findEven(array) {
    myArray.push("apple");
    myArray;
    => [1,2,3,"apple"]
+
+
+  console.log(); prints something to the console as a means of basic debugging.
+
+  Here are some sanity checks written in "plain English".
+  See if you can translate them into JavaScript. Your checks should look like this.
+
+   console.log(findEven([...data points...]) == ...expected return value...);
+
+  If the input is the empty array, findEven should return the empty array.
+
+
+  If the input array contains all EVEN numbers, findEven should return the input array.
+
+    console.log(findEven([2, 4, 6, 8, 10]));
+    => [2, 4, 6, 8, 10]
+
+  If the input array contains all ODD numbers, findEven should return the empty array.
+
+  If an even number appears N times in the input array, it should appear N times in the the array that findEven returns.
 */
-
-// console.log(); prints something to the console as a means of basic debugging.
-
-// Here are some sanity checks written in "plain English".
-// See if you can translate them into JavaScript. Your checks should look like this.
-
-//  console.log(mode([...data points...]) == ...expected return value...);
-
-// If the input is the empty array, findEven should return the empty array.
-
-
-// If the input array contains all EVEN numbers, findEven should return the input array.
-
-//  console.log(findEven([2, 4, 6, 8, 10]));
-//  => [2, 4, 6, 8, 10]
-
-// If the input array contains all ODD numbers, findEven should return the empty array.
-
-// If an even number appears N times in the input array, it should appear N times in the the array that findEven returns.
-
