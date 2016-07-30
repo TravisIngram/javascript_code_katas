@@ -10,7 +10,7 @@ If you are a CodeUnion student, you can then submit your code and receive feedba
 
 All of the core exercises can be found in the [exercises](exercises) directory, and bonus exercises (i.e. really tough ones) can be found in the [bonus](bonus) directory.
 
-The exercise files are listed in a predetermined order.  It is __strongly recommended__ that they be completed in that [order](exercises/_SUGGESTED_ORDER.md).
+The exercise files are listed in alphabetical order.  It is __strongly recommended__ that they be completed in the [suggested order](exercises/_SUGGESTED_ORDER.md).
 
 ## Getting Started
 
@@ -19,13 +19,18 @@ The exercise files are listed in a predetermined order.  It is __strongly recomm
 1. Make small, frequent commits
 1. Push your commits to your fork on GitHub
 
-Once your code is on the GitHub, you can (and should) request feedback with the [CodeUnion command-line tool][codeunion-cli-tool].
+Once your code is on the GitHub, you can (and should) request feedback from your peers.
 
 ### Requirements
 
-You will need a working copy of [Ruby][ruby-home-page] to complete these exercises.
+In order to run or execute these exercise files, you'll need to have a build environment set up in your text editor of choice.  In Atom, you have to install a particular package, [script](https://atom.io/packages/script).
 
-If you don't have or don't know how to use Ruby and Git development tools to accomplish any of the above steps, read our [guide on setting up your development environment][guide-development-environment].
+For Sublime Text, it's a little more involved.  You will have to have Node installed and running (to interrupt the JS) for the build to work.  Here are two sets of instructions for getting this set up.
+
+[Pawel Grzybek - JS Console in Sublime Text](https://pawelgrzybek.com/javascript-console-in-sublime-text/)
+[WikiHow - Sublime Text JS Build](http://www.wikihow.com/Create-a-Javascript-Console-in-Sublime-Text)
+
+You can also run the exercises by simply copy and pasting them into sites like [JSFiddle](https://jsfiddle.net) and [REPL.it](https://repl.it).
 
 <!-- Links -->
 
