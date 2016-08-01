@@ -16,14 +16,14 @@
 */
 
 function min(list) {
-  var ____ = ____;
-  for (var i = 0; i < ____.length; i++) {
-    if (____ _ ____) {
-      ____ = ____;
+  var smallestNum = list[0];
+  for (var i = 0; i < list.length; i++) {
+    if (list[i] < smallestNum) {
+      smallestNum = list[i];
     }
   }
 
-  return ____;
+  return smallestNum;
 }
 
 
