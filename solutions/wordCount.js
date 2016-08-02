@@ -11,6 +11,11 @@
 */
 
 function wordCount(string) {
+  var words = string.split(" ");
+  var wordCount = words.length;
+
+  return words.length;
+
   // Hint: You'll want to use String.split()
   // See: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
 
