@@ -24,16 +24,44 @@
 */
 
 function sum(list) {
-  // This is your job. =]
+  var total = 0;
+
+  for (var i = 0; i < list.length; i++) {
+    total += list[i];
+  }
+
+  return total;
 
 }
 
 function mean(list) {
-  var total = sum(list);  // This is the "sum();" function from our sum.js file.
-  // result = ____        // Given the list's sum, how can we calculate the average?
+  var result = 0;
+
+  var total = sum(list);          // This is the "sum();" function from our sum.js file.
+  result = total / list.length;   // Given the list's sum, how can we calculate the average?
+
+  return result;
 }
 
 /*
   I'd advise putting some sanity checks here.
   How else will you confirm that your code does what you think it does?
+
+  console.log() prints something to the console as a means of basic debugging.
+*/
+
+console.log(mean([10, 1, 2, 10, 10]));
+console.log(mean([10, 1, 2, 10, 10, 43, 12, 9]));
+console.log(mean([4, 8, 16, 72, 0, 0]));
+console.log(mean([1, 1, 2, 26, 85]));
+
+console.log(mean([10, 1, 2, 10, 10]) === 6.6);
+console.log(mean([10, 1, 2, 10, 10, 43, 12, 9]) === 12.125);
+console.log(mean([4, 8, 16, 72, 0, 0]) == 16.666666666666668);
+console.log(mean([1, 1, 2, 26, 85]) === 23);
+
+/*
+ Remember: these are rumble strips, not a driving instructor.
+ If any are "false" then something is broken. But just because they all return
+ "true" doesn't mean you've nailed it. =]
 */
