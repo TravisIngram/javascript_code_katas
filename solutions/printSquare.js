@@ -33,7 +33,7 @@ function printLine(count) {
 
 function printSquare(dimension) {
   for (var i = 0; i < dimension; i++) {
-    printLine(____);
+    printLine(dimension);
   }
 }
 
