@@ -22,12 +22,21 @@
 */
 
 function sum(list) {
-  // This is your job. =]
+  var total = 0;
 
+  for (var i = 0; i < list.length; i++) {
+    total += list[i];
+  }
+
+  return total;
 }
 
+/*
+  I'd advise putting some sanity checks here.
+  How else will you confirm that your code does what you think it does?
 
-// console.log() prints something to the console as a means of basic debugging.
+  console.log() prints something to the console as a means of basic debugging.
+*/
 
 console.log(sum([1]) === 1);
 console.log(sum([0]) === 0);
