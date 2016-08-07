@@ -27,21 +27,23 @@ function printLine(count) {
 }
 
 function printTriangle(height) {
-  // You have to fill in the details here!  =]
+  for (var i = 0; i < height; i++) {
+    printLine(i);
+  }
 }
 
 
 // console.log(); prints something to the console as a means of basic debugging.
-
-console.log(printTriangle(1));
-
-console.log("\n\n\n");   // This is here to make the separation between triangles clearer
 
 console.log(printTriangle(2));
 
 console.log("\n\n\n");   // This is here to make the separation between triangles clearer
 
 console.log(printTriangle(3));
+
+console.log("\n\n\n");   // This is here to make the separation between triangles clearer
+
+console.log(printTriangle(6));
 
 console.log("\n\n\n");   // This is here to make the separation between triangles clearer
 
