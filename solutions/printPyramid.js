@@ -31,7 +31,9 @@ function printLine(count) {
 }
 
 function printTriangle(height) {
-  // You have to fill in the details here!  =]
+  for (var i = 0; i < height; i++) {
+    printLine(i);
+  }
 }
 
 function printPyramid(height) {
