@@ -22,8 +22,41 @@
 */
 
 function commas(num) {
-  // You have to fill in the details here!  =]
+  var numString = '';
+
+  numString += num;
+
+
+
+  return numString;
+
 }
+
+console.log(commas(123)     == "123");
+console.log(commas(1234)    == "1,234");
+console.log(commas(12345)   == "12,345");
+console.log(commas(1234567) == "1,234,567");
+
+
+/*
+I need to bulid a new string, once character at a time.  If the index of the
+character I'm at is equal to three, I need to add a comma.
+
+Here's one way...
+
+var numString = "";
+var newString = "";
+var char;
+
+  for (var i = 0; i < numString.length; i++) {
+    char = numString.charAt(i);
+    newString = newString + char;
+    if (i % 3 != 0 && (i < numString.length -1)) {
+      newString = newString + ',';
+    }
+  }
+
+return newString;
 
 /*
   Write some of your own "sanity checks" here.  Each check should look like:
