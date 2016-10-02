@@ -33,6 +33,12 @@ For Sublime Text, it's a little more involved.  You will have to have Node insta
 
 You can also run the exercises by simply copy and pasting them into sites like [JSFiddle](https://jsfiddle.net) and [REPL.it](https://repl.it).
 
+### Solutions
+
+While not yet complete, there is a solutions directory that contains one possible solution for a given exercise.  The intent is to provide a way to verify that you're on the right track.  There are a number of ways to complete a given exercise so if yours doesn't match the given solutions, that's okay.
+
+Additional solutions will be added in the future.
+
 <!-- Links -->
 
 [codeunion]:http://codeunion.io
